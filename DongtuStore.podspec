@@ -18,4 +18,5 @@ Pod::Spec.new do |s|
   s.xcconfig  = { 'OTHER_LDFLAGS' => '-ObjC' }
   s.vendored_frameworks = 'DongtuStoreSDK.framework'
   s.framework = 'UIKit'
+  s.static_framework = true
 end
